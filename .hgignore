@@ -1,7 +1,8 @@
+syntax: glob
 *~
 .*.sw[op]
 .svn
-.hg
+.git
 build
 dist
 Trac.egg-info
@@ -19,6 +20,3 @@ Makefile.cfg
 doc/.build
 *.mo
 trac/htdocs/js/messages/*.js
-.project
-.pydevproject
-.settings
